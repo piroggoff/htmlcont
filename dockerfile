@@ -4,5 +4,5 @@ RUN apt-get update \
     && pip install flask \
     && pip install markupsafe
 COPY . /app
-EXPOSE 5000
+EXPOSE 81
 ENTRYPOINT ["python", "./app/standart.py"]
