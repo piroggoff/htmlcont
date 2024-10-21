@@ -1,0 +1,43 @@
+/* Basic body styling */
+body {
+    background-color: lightblue; /* Light blue background */
+    color: black; /* Black text color */
+    font-family: Arial, sans-serif; /* Default font */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Styling for headings */
+h1 {
+    color: navy; /* Dark blue text color for h1 */
+    text-align: center; /* Center align the h1 heading */
+    font-size: 3em;
+}
+
+h2 {
+    color: darkgreen; /* Dark green text color for h2 */
+    font-size: 2em;
+}
+
+p {
+    line-height: 1.5; /* Increase line height for better readability */
+    font-size: 1.2em;
+}
+
+/* Adding a simple border and padding to div elements */
+div {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+/* Styling for links */
+a {
+    color: darkred; /* Dark red text color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline the link on hover */
+}
