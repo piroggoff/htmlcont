@@ -7,6 +7,9 @@ app = Flask(__name__)
 def default_index():
     return render_template('index.html', text=f'You need to enter your name after slash in url box above!')
 
+@app.route("/hello")
+def hello_page():
+    return render_template("hello.html")
 
 @app.route("/<something>")
 def index(something=None):
