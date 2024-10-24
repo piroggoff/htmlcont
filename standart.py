@@ -7,6 +7,7 @@ app = Flask(__name__)
 def default_index():
     return render_template('index.html', text=f'You need to enter your name after slash in url box above!')
 
+
 @app.route("/<something>")
 def index(something=None):
     if something == 'evgenz':
@@ -20,6 +21,7 @@ def login(username):
         return f'{username}, you are post'
     else:
         return f'{username}, you are not post'
+
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=81, debug=False)
